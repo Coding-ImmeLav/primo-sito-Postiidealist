@@ -1,1 +1,50 @@
+/*per chiamare i tag posso semplicamente scriverli*/
 
+header {
+    background-color: blue;
+    height: 8vh; /* 8% dell'altezza della finestra*/
+    /* per dire a header dove devono stare le cose si usa flex */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;/*sfondo trasparento*/
+    color: white;/*colore del testo*/
+    border: none;/* bordo nullo*/
+    font-size: 1.2em;/*dimensione del testo*/
+    font-weight: bold; /*grasseto*/
+    font-family: monospace;
+}
+.hero {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 92vh;
+}
+
+h1, h3{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+
+/*dimensione a info*/
+
+.info{
+  height: 70vh; 
+  background-color: beige;
+  display: flex;
+}
+
+.destra,.sinistra {
+
+    width: 50%;
+}
+
+.immagine{
+    /* dimensione che si adatta alla colonna*/
+    width: 100%;
+}
